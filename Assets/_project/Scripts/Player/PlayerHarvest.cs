@@ -23,9 +23,12 @@ public class PlayerHarvest : PlayerComponent
                     _crops.Remove(crop);
 
                 if (_crops.Count <= 0)
+                {
                     Controller.Animation.SetHarvesting(false);
+                    CanUseTool(false);
+                }
 
-                return;
+                    return;
             }
 
             if (!_crops.Contains(crop))
@@ -43,8 +46,11 @@ public class PlayerHarvest : PlayerComponent
             if (_crops.Contains(crop))
                 _crops.Remove(crop);
 
-            if (_crops.Count <= 0) 
+            if (_crops.Count <= 0)
+            {
                 Controller.Animation.SetHarvesting(false);
+                CanUseTool(false);
+            }
         }
     }
 }

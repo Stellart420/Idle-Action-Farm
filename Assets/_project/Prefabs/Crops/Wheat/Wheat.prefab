@@ -294,7 +294,7 @@ MonoBehaviour:
   <Material>k__BackingField: {fileID: 2100000, guid: fdf18c58b725a2f469593ece1786d307, type: 2}
   <Renderer>k__BackingField: {fileID: 93981364979615009}
   _cutUpper: 1
-  _wait: 0.9
+  _wait: 0.65
 --- !u!65 &4108433221378207703
 BoxCollider:
   m_ObjectHideFlags: 0
