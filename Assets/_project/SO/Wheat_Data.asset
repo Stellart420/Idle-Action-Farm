@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba552a81f1e5d3408c5b9c1264e69ba, type: 3}
+  m_Name: Wheat_Data
+  m_EditorClassIdentifier: 
+  Crop: {fileID: 7870489323104096307, guid: 48ac6a3bafb548640bdc7c39ab0ace5e, type: 3}
+  HarvestItem: {fileID: 3991356710612142778, guid: 63190a62a3e8fe14990b39ed889bfd8f, type: 3}
+  InventoryItem: {fileID: 6799365444558252564, guid: 07165d2acb526af498979b274567aafd, type: 3}
+  Price: 15
